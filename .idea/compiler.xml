@@ -27,10 +27,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="ASE_Term1_Mobile_Applications_Exercise_Team_Project_searchServer" />
         <module name="perssearch" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ASE_Term1_Mobile_Applications_Exercise_Team_Project_searchServer" target="1.6" />
       <module name="perssearch" target="1.6" />
     </bytecodeTargetLevel>
   </component>

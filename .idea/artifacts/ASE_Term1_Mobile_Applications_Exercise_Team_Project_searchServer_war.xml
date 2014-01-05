@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ASE_Term1_Mobile_Applications_Exercise_Team_Project_searchServer:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="perssearch-0.1.0.BUILD-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ASE_Term1_Mobile_Applications_Exercise_Team_Project_searchServer:war exploded" />
+    </root>
+  </artifact>
+</component>
