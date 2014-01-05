@@ -1,0 +1,28 @@
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2014-01-05 17:09:19
+project --topLevelPackage com.ase.persSearch
+jpa setup --database HYPERSONIC_PERSISTENT --provider HIBERNATE 
+entity jpa --class ~.domain.Person
+entity jpa --class ~.domain.Person --testAutomatically 
+hint
+field string --fieldName firstname --notNull
+field string --fieldName lastname --notNull
+field string --fieldName emailAddress --notNull
+field string --fieldName address --notNull
+entity jpa --class ~.domain.Person --testAutomatically 
+field string --fieldName firstname --notNull
+field string --fieldName lastname --notNull
+field string --fieldName emailAddress --notNull
+field string --fieldName address --notNull
+perform tests
+hint
+backup
+hint
+backup
+web jsf setup --implementation ORACLE_MOJARRA --library PRIMEFACES --theme EXCITE_BIKE 
+web jsf all --package com.ase.perssearch.domain
+backup
+!
+help
+hint
+exit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2014-01-05 19:01:13

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="perssearch:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="perssearch-0.1.0.BUILD-SNAPSHOT.war">
+      <element id="artifact" artifact-name="perssearch:war exploded" />
+    </root>
+  </artifact>
+</component>
