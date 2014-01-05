@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a70bf063-c83e-4995-a008-9f59ecb1c735" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/Person.java" afterPath="$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/Person.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/perssearch.lck" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/Person_Roo_Json.aj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/perssearch.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log.roo" afterPath="$PROJECT_DIR$/log.roo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/perssearch.properties" afterPath="$PROJECT_DIR$/perssearch.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="roo test.iws" />
@@ -68,102 +69,7 @@
     <favorites_list name="roo test" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Person_Roo_Json.aj" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/Person_Roo_Json.aj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="18" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="660">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.xhtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/main.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="63" selection-start="814" selection-end="814" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="405">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="person.xhtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/person.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1380">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonConverter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/converter/PersonConverter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApplicationBean.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/ApplicationBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="13" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonBean.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/PersonBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonBean_Roo_Configurable.aj" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/PersonBean_Roo_Configurable.aj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="18" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonBean_Roo_ManagedBean.aj" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/PersonBean_Roo_ManagedBean.aj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="201" column="36" selection-start="8906" selection-end="8906" vertical-scroll-proportion="4.3386245" vertical-offset="0" max-vertical-offset="5550">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonBean_Roo_Serializable.aj" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/PersonBean_Roo_Serializable.aj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="18" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Person_Roo_Jpa_ActiveRecord.aj" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/Person_Roo_Jpa_ActiveRecord.aj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="38" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1170">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -777,7 +683,7 @@
       <workItem from="1388942422136" duration="419000" />
       <workItem from="1388942994985" duration="1244000" />
       <workItem from="1388945031356" duration="1674000" />
-      <workItem from="1388947158815" duration="3820000" />
+      <workItem from="1388947158815" duration="4052000" />
     </task>
     <task id="LOCAL-00001" summary="Initial import">
       <created>1388945586207</created>
@@ -799,11 +705,15 @@
       <created>1388950238047</created>
       <updated>1388950238047</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Base JSON">
+      <created>1388951036218</created>
+      <updated>1388951036218</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11507000" />
+    <option name="totallyTimeSpent" value="11739000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1071" extended-state="6" />
@@ -853,6 +763,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
@@ -860,7 +771,8 @@
     <MESSAGE value="Initial import&#10;" />
     <MESSAGE value="Minor layout changae" />
     <MESSAGE value="no comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="no comment" />
+    <MESSAGE value="Base JSON" />
+    <option name="LAST_COMMIT_MESSAGE" value="Base JSON" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1240,22 +1152,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/Person_Roo_Jpa_ActiveRecord.aj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="38" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1170">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/Person_Roo_Json.aj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="18" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="660">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/templates/content.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589">
@@ -1263,9 +1159,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/main.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/PersonBean_Roo_ManagedBean.aj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="63" selection-start="814" selection-end="814" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="405">
+        <state line="30" column="19" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.29100528" vertical-offset="0" max-vertical-offset="5550">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/PersonBean_Roo_Configurable.aj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="18" selection-start="333" selection-end="333" vertical-scroll-proportion="0.18518518" vertical-offset="0" max-vertical-offset="567">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/PersonBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="272" selection-end="272" vertical-scroll-proportion="0.13227513" vertical-offset="0" max-vertical-offset="567">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/ApplicationBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="214" selection-end="214" vertical-scroll-proportion="0.12733446" vertical-offset="0" max-vertical-offset="589">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/converter/PersonConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="208" selection-end="208" vertical-scroll-proportion="0.10186757" vertical-offset="0" max-vertical-offset="589">
           <folding />
         </state>
       </provider>
@@ -1277,23 +1203,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/converter/PersonConverter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/main.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+        <state line="21" column="63" selection-start="814" selection-end="814" vertical-scroll-proportion="0.5575221" vertical-offset="0" max-vertical-offset="565">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/ApplicationBean.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/Person_Roo_Json.aj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/PersonBean_Roo_Configurable.aj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+        <state line="12" column="18" selection-start="409" selection-end="409" vertical-scroll-proportion="0.27674022" vertical-offset="2" max-vertical-offset="660">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1302,21 +1221,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/PersonBean_Roo_Serializable.aj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+        <state line="8" column="18" selection-start="296" selection-end="296" vertical-scroll-proportion="0.15280136" vertical-offset="0" max-vertical-offset="589">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/PersonBean.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/Person_Roo_Jpa_ActiveRecord.aj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/PersonBean_Roo_ManagedBean.aj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="201" column="36" selection-start="8906" selection-end="8906" vertical-scroll-proportion="4.3386245" vertical-offset="0" max-vertical-offset="5550">
+        <state line="26" column="38" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.3327674" vertical-offset="119" max-vertical-offset="1170">
           <folding />
         </state>
       </provider>
