@@ -7,3 +7,21 @@ Auf github.com pushen.
 
 
 git push -u origin master
+
+
+
+
+
+
+
+To deploy the Spring application to glassfish this all if it is in good mood and tends to work would be necessary.
+
+http://forum.spring.io/forum/spring-projects/roo/106107-deploying-a-roo-jpa-2-app-to-glassfish-3
+
+Because glassfish doesnot like ressource_local persistence units - huhuhuh
+It wants JTA - huhuhu
+And therefore as always and ever we have to be experts in all of the related technologies to only understand
+what those .......... are talking about.
+Beside that we have to update around one hundert configuration bullshit xml and properties and so and so on files.
+
+
