@@ -30,4 +30,10 @@ public class Person {
      */
     @NotNull
     private String address;
+
+    /**
+     * Telephonenumber of the person
+     */
+    @NotNull
+    private String telephonNumber;
 }

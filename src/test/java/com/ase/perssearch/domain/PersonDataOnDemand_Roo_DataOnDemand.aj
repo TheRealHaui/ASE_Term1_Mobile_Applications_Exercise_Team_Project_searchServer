@@ -28,6 +28,7 @@ privileged aspect PersonDataOnDemand_Roo_DataOnDemand {
         setEmailAddress(obj, index);
         setFirstname(obj, index);
         setLastname(obj, index);
+        setTelephonNumber(obj, index);
         return obj;
     }
     
@@ -49,6 +50,11 @@ privileged aspect PersonDataOnDemand_Roo_DataOnDemand {
     public void PersonDataOnDemand.setLastname(Person obj, int index) {
         String lastname = "lastname_" + index;
         obj.setLastname(lastname);
+    }
+    
+    public void PersonDataOnDemand.setTelephonNumber(Person obj, int index) {
+        String telephonNumber = "telephonNumber_" + index;
+        obj.setTelephonNumber(telephonNumber);
     }
     
     public Person PersonDataOnDemand.getSpecificPerson(int index) {

@@ -39,4 +39,12 @@ privileged aspect Person_Roo_JavaBean {
         this.address = address;
     }
     
+    public String Person.getTelephonNumber() {
+        return this.telephonNumber;
+    }
+    
+    public void Person.setTelephonNumber(String telephonNumber) {
+        this.telephonNumber = telephonNumber;
+    }
+    
 }

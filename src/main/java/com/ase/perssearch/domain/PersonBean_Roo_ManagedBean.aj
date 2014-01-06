@@ -54,6 +54,7 @@ privileged aspect PersonBean_Roo_ManagedBean {
         columns.add("lastname");
         columns.add("emailAddress");
         columns.add("address");
+        columns.add("telephonNumber");
     }
     
     public String PersonBean.getName() {
@@ -196,6 +197,24 @@ privileged aspect PersonBean_Roo_ManagedBean {
         addressCreateInputMessage.setDisplay("icon");
         htmlPanelGrid.getChildren().add(addressCreateInputMessage);
         
+        OutputLabel telephonNumberCreateOutput = (OutputLabel) application.createComponent(OutputLabel.COMPONENT_TYPE);
+        telephonNumberCreateOutput.setFor("telephonNumberCreateInput");
+        telephonNumberCreateOutput.setId("telephonNumberCreateOutput");
+        telephonNumberCreateOutput.setValue("Telephon Number:");
+        htmlPanelGrid.getChildren().add(telephonNumberCreateOutput);
+        
+        InputText telephonNumberCreateInput = (InputText) application.createComponent(InputText.COMPONENT_TYPE);
+        telephonNumberCreateInput.setId("telephonNumberCreateInput");
+        telephonNumberCreateInput.setValueExpression("value", expressionFactory.createValueExpression(elContext, "#{personBean.person.telephonNumber}", String.class));
+        telephonNumberCreateInput.setRequired(true);
+        htmlPanelGrid.getChildren().add(telephonNumberCreateInput);
+        
+        Message telephonNumberCreateInputMessage = (Message) application.createComponent(Message.COMPONENT_TYPE);
+        telephonNumberCreateInputMessage.setId("telephonNumberCreateInputMessage");
+        telephonNumberCreateInputMessage.setFor("telephonNumberCreateInput");
+        telephonNumberCreateInputMessage.setDisplay("icon");
+        htmlPanelGrid.getChildren().add(telephonNumberCreateInputMessage);
+        
         return htmlPanelGrid;
     }
     
@@ -279,6 +298,24 @@ privileged aspect PersonBean_Roo_ManagedBean {
         addressEditInputMessage.setDisplay("icon");
         htmlPanelGrid.getChildren().add(addressEditInputMessage);
         
+        OutputLabel telephonNumberEditOutput = (OutputLabel) application.createComponent(OutputLabel.COMPONENT_TYPE);
+        telephonNumberEditOutput.setFor("telephonNumberEditInput");
+        telephonNumberEditOutput.setId("telephonNumberEditOutput");
+        telephonNumberEditOutput.setValue("Telephon Number:");
+        htmlPanelGrid.getChildren().add(telephonNumberEditOutput);
+        
+        InputText telephonNumberEditInput = (InputText) application.createComponent(InputText.COMPONENT_TYPE);
+        telephonNumberEditInput.setId("telephonNumberEditInput");
+        telephonNumberEditInput.setValueExpression("value", expressionFactory.createValueExpression(elContext, "#{personBean.person.telephonNumber}", String.class));
+        telephonNumberEditInput.setRequired(true);
+        htmlPanelGrid.getChildren().add(telephonNumberEditInput);
+        
+        Message telephonNumberEditInputMessage = (Message) application.createComponent(Message.COMPONENT_TYPE);
+        telephonNumberEditInputMessage.setId("telephonNumberEditInputMessage");
+        telephonNumberEditInputMessage.setFor("telephonNumberEditInput");
+        telephonNumberEditInputMessage.setDisplay("icon");
+        htmlPanelGrid.getChildren().add(telephonNumberEditInputMessage);
+        
         return htmlPanelGrid;
     }
     
@@ -329,6 +366,16 @@ privileged aspect PersonBean_Roo_ManagedBean {
         addressValue.setId("addressValue");
         addressValue.setValueExpression("value", expressionFactory.createValueExpression(elContext, "#{personBean.person.address}", String.class));
         htmlPanelGrid.getChildren().add(addressValue);
+        
+        HtmlOutputText telephonNumberLabel = (HtmlOutputText) application.createComponent(HtmlOutputText.COMPONENT_TYPE);
+        telephonNumberLabel.setId("telephonNumberLabel");
+        telephonNumberLabel.setValue("Telephon Number:");
+        htmlPanelGrid.getChildren().add(telephonNumberLabel);
+        
+        HtmlOutputText telephonNumberValue = (HtmlOutputText) application.createComponent(HtmlOutputText.COMPONENT_TYPE);
+        telephonNumberValue.setId("telephonNumberValue");
+        telephonNumberValue.setValueExpression("value", expressionFactory.createValueExpression(elContext, "#{personBean.person.telephonNumber}", String.class));
+        htmlPanelGrid.getChildren().add(telephonNumberValue);
         
         return htmlPanelGrid;
     }
