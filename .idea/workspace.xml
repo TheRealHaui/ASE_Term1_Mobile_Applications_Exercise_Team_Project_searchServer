@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a70bf063-c83e-4995-a008-9f59ecb1c735" name="Default" comment="Added telephonnumber to person domain&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todo.txt" afterPath="$PROJECT_DIR$/todo.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/util/LocaleBean.java" afterPath="$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/util/LocaleBean.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="roo test.iws" />
@@ -76,10 +76,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="todo.txt" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/todo.txt">
+      <file leaf-file-name="database.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/database.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="56" selection-start="235" selection-end="235" vertical-scroll-proportion="0.30371204" vertical-offset="0" max-vertical-offset="889">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocaleBean.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/util/LocaleBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="47" selection-start="443" selection-end="443" vertical-scroll-proportion="0.10123734" vertical-offset="0" max-vertical-offset="889">
               <folding />
             </state>
           </provider>
@@ -104,6 +113,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/Person.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/todo.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/util/LocaleBean.java" />
       </list>
     </option>
   </component>
@@ -424,6 +434,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="perssearch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ASE_Term1_Mobile_Applications_Exercise_Team_Project_searchServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -787,6 +831,7 @@
       <workItem from="1388953317144" duration="722000" />
       <workItem from="1389031353842" duration="1132000" />
       <workItem from="1389040079176" duration="565000" />
+      <workItem from="1389044517114" duration="113000" />
     </task>
     <task id="LOCAL-00001" summary="Initial import">
       <created>1388945586207</created>
@@ -824,7 +869,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16014000" />
+    <option name="totallyTimeSpent" value="16127000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1071" extended-state="6" />
@@ -832,7 +877,7 @@
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32822758" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2257721" sideWeight="0.2816594" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22538178" sideWeight="0.2816594" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -896,18 +941,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/templates/layout.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="41" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/main.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="63" selection-start="814" selection-end="814" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="405" />
@@ -1018,20 +1051,20 @@
             <node x="" y="">org.springframework.roo:org.springframework.roo.annotations:jar:1.2.4.RELEASE/commons-io:commons-io:jar:2.1</node>
             <node x="" y="">org.springframework:spring-test:jar:3.2.3.RELEASE</node>
             <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.7.5</node>
+            <node x="" y="">org.springframework:spring-web:jar:3.2.3.RELEASE/org.springframework:spring-beans:jar:3.2.3.RELEASE</node>
             <node x="" y="">org.springframework:spring-aspects:jar:3.2.3.RELEASE</node>
             <node x="" y="">org.springframework:spring-aop:jar:3.2.3.RELEASE/org.springframework:spring-core:jar:3.2.3.RELEASE</node>
-            <node x="" y="">org.springframework:spring-web:jar:3.2.3.RELEASE/org.springframework:spring-beans:jar:3.2.3.RELEASE</node>
             <node x="" y="">com.sun.faces:jsf-api:jar:2.1.2</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:4.2.2.Final</node>
             <node x="" y="">org.hibernate:hibernate-core:jar:4.2.2.Final/antlr:antlr:jar:2.7.7</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:4.2.2.Final</node>
             <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.7.5/org.slf4j:slf4j-api:jar:1.7.5</node>
             <node x="" y="">org.springframework:spring-web:jar:3.2.3.RELEASE/org.springframework:spring-aop:jar:3.2.3.RELEASE</node>
-            <node x="" y="">org.hibernate:hibernate-entitymanager:jar:4.2.2.Final/org.javassist:javassist:jar:3.15.0-GA</node>
             <node x="" y="">org.springframework:spring-orm:jar:3.2.3.RELEASE</node>
-            <node x="" y="">org.hibernate:hibernate-entitymanager:jar:4.2.2.Final/org.jboss.logging:jboss-logging:jar:3.1.0.GA</node>
+            <node x="" y="">org.hibernate:hibernate-entitymanager:jar:4.2.2.Final/org.javassist:javassist:jar:3.15.0-GA</node>
             <node x="" y="">org.springframework:spring-orm:jar:3.2.3.RELEASE/org.springframework:spring-jdbc:jar:3.2.3.RELEASE</node>
-            <node x="" y="">org.springframework:spring-core:jar:3.2.3.RELEASE</node>
+            <node x="" y="">org.hibernate:hibernate-entitymanager:jar:4.2.2.Final/org.jboss.logging:jboss-logging:jar:3.1.0.GA</node>
             <node x="" y="">org.hibernate:hibernate-core:jar:4.2.2.Final/org.hibernate.common:hibernate-commons-annotations:jar:4.0.2.Final/org.jboss.logging:jboss-logging:jar:3.1.0.CR2</node>
+            <node x="" y="">org.springframework:spring-core:jar:3.2.3.RELEASE</node>
             <node x="" y="">org.springframework:spring-web:jar:3.2.3.RELEASE</node>
             <node x="" y="">org.springframework:spring-web:jar:3.2.3.RELEASE/aopalliance:aopalliance:jar:1.0</node>
             <node x="" y="">org.springframework:spring-jdbc:jar:3.2.3.RELEASE/org.springframework:spring-core:jar:3.2.3.RELEASE</node>
@@ -1056,51 +1089,51 @@
             <node x="" y="">org.springframework:spring-orm:jar:3.2.3.RELEASE/aopalliance:aopalliance:jar:1.0</node>
             <node x="" y="">org.aspectj:aspectjrt:jar:1.7.2</node>
             <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.7.5/log4j:log4j:jar:1.2.17</node>
-            <node x="" y="">org.springframework:spring-jdbc:jar:3.2.3.RELEASE</node>
             <node x="" y="">org.springframework:spring-web:jar:3.2.3.RELEASE/org.springframework:spring-core:jar:3.2.3.RELEASE</node>
-            <node x="" y="">log4j:log4j:jar:1.2.17</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:3.2.3.RELEASE</node>
             <node x="" y="">org.springframework:spring-context:jar:3.2.3.RELEASE</node>
+            <node x="" y="">log4j:log4j:jar:1.2.17</node>
             <node x="" y="">org.springframework:spring-test:jar:3.2.3.RELEASE/org.springframework:spring-core:jar:3.2.3.RELEASE</node>
-            <node x="" y="">org.apache.commons:commons-lang3:jar:3.1</node>
             <node x="" y="">com.sun.faces:jsf-impl:jar:2.1.2</node>
+            <node x="" y="">org.apache.commons:commons-lang3:jar:3.1</node>
             <node x="" y="">org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final</node>
             <node x="" y="">org.springframework:spring-orm:jar:3.2.3.RELEASE/org.springframework:spring-beans:jar:3.2.3.RELEASE</node>
             <node x="" y="">org.hibernate:hibernate-core:jar:4.2.2.Final/org.jboss.logging:jboss-logging:jar:3.1.0.GA</node>
             <node x="" y="">org.hsqldb:hsqldb:jar:2.2.9</node>
             <node x="" y="">javax.transaction:jta:jar:1.1</node>
             <node x="" y="">org.springframework.roo:org.springframework.roo.annotations:jar:1.2.4.RELEASE/org.apache.commons:commons-lang3:jar:3.1</node>
-            <node x="" y="">org.hibernate:hibernate-entitymanager:jar:4.2.2.Final/org.hibernate.common:hibernate-commons-annotations:jar:4.0.2.Final</node>
             <node x="" y="">org.springframework:spring-jdbc:jar:3.2.3.RELEASE/org.springframework:spring-tx:jar:3.2.3.RELEASE</node>
+            <node x="" y="">org.hibernate:hibernate-entitymanager:jar:4.2.2.Final/org.hibernate.common:hibernate-commons-annotations:jar:4.0.2.Final</node>
             <node x="" y="">org.springframework:spring-orm:jar:3.2.3.RELEASE/org.springframework:spring-tx:jar:3.2.3.RELEASE</node>
             <node x="" y="">org.springframework:spring-aop:jar:3.2.3.RELEASE</node>
-            <node x="" y="">org.springframework.roo:org.springframework.roo.annotations:jar:1.2.4.RELEASE</node>
-            <node x="" y="">org.springframework:spring-context:jar:3.2.3.RELEASE/org.springframework:spring-aop:jar:3.2.3.RELEASE</node>
             <node x="" y="">org.springframework:spring-orm:jar:3.2.3.RELEASE/org.springframework:spring-core:jar:3.2.3.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:3.2.3.RELEASE/org.springframework:spring-aop:jar:3.2.3.RELEASE</node>
+            <node x="" y="">org.springframework.roo:org.springframework.roo.annotations:jar:1.2.4.RELEASE</node>
             <node x="" y="">org.springframework:spring-aspects:jar:3.2.3.RELEASE/org.springframework:spring-context-support:jar:3.2.3.RELEASE/org.springframework:spring-core:jar:3.2.3.RELEASE</node>
             <node x="" y="">org.hibernate:hibernate-core:jar:4.2.2.Final/org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final</node>
-            <node x="" y="">org.springframework:spring-context:jar:3.2.3.RELEASE/org.springframework:spring-expression:jar:3.2.3.RELEASE/org.springframework:spring-core:jar:3.2.3.RELEASE</node>
             <node x="" y="">org.springframework:spring-aspects:jar:3.2.3.RELEASE/org.springframework:spring-context-support:jar:3.2.3.RELEASE/org.springframework:spring-context:jar:3.2.3.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:3.2.3.RELEASE/org.springframework:spring-expression:jar:3.2.3.RELEASE/org.springframework:spring-core:jar:3.2.3.RELEASE</node>
             <node x="" y="">org.hibernate:hibernate-validator:jar:4.3.1.Final</node>
-            <node x="" y="">org.slf4j:jcl-over-slf4j:jar:1.7.5</node>
             <node x="" y="">org.springframework.roo:org.springframework.roo.annotations:jar:1.2.4.RELEASE/commons-codec:commons-codec:jar:1.6</node>
+            <node x="" y="">org.slf4j:jcl-over-slf4j:jar:1.7.5</node>
             <node x="" y="">org.springframework:spring-aop:jar:3.2.3.RELEASE/aopalliance:aopalliance:jar:1.0</node>
             <node x="" y="">javax.servlet:servlet-api:jar:2.5</node>
             <node x="" y="">org.springframework:spring-jdbc:jar:3.2.3.RELEASE/org.springframework:spring-tx:jar:3.2.3.RELEASE/org.springframework:spring-beans:jar:3.2.3.RELEASE</node>
             <node x="" y="">org.primefaces.themes:excite-bike:jar:1.0.10</node>
             <node x="" y="">javax.validation:validation-api:jar:1.0.0.GA</node>
             <node x="" y="">org.hibernate:hibernate-validator:jar:4.3.1.Final/org.jboss.logging:jboss-logging:jar:3.1.0.CR2</node>
-            <node x="" y="">org.springframework:spring-context:jar:3.2.3.RELEASE/org.springframework:spring-beans:jar:3.2.3.RELEASE</node>
-            <node x="" y="">org.springframework:spring-context:jar:3.2.3.RELEASE/org.springframework:spring-core:jar:3.2.3.RELEASE</node>
-            <node x="" y="">commons-dbcp:commons-dbcp:jar:1.4</node>
             <node x="" y="">commons-io:commons-io:jar:2.1</node>
-            <node x="" y="">junit:junit:jar:4.11</node>
-            <node x="" y="">org.slf4j:slf4j-api:jar:1.7.5</node>
+            <node x="" y="">commons-dbcp:commons-dbcp:jar:1.4</node>
+            <node x="" y="">org.springframework:spring-context:jar:3.2.3.RELEASE/org.springframework:spring-core:jar:3.2.3.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:3.2.3.RELEASE/org.springframework:spring-beans:jar:3.2.3.RELEASE</node>
             <node x="" y="">org.hibernate:hibernate-core:jar:4.2.2.Final/dom4j:dom4j:jar:1.6.1</node>
+            <node x="" y="">org.slf4j:slf4j-api:jar:1.7.5</node>
+            <node x="" y="">junit:junit:jar:4.11</node>
             <node x="" y="">org.springframework:spring-jdbc:jar:3.2.3.RELEASE/org.springframework:spring-tx:jar:3.2.3.RELEASE/org.springframework:spring-core:jar:3.2.3.RELEASE</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:4.2.2.Final/org.javassist:javassist:jar:3.15.0-GA</node>
             <node x="" y="">org.primefaces.themes:south-street:jar:1.0.10</node>
-            <node x="" y="">commons-pool:commons-pool:jar:1.5.6</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:4.2.2.Final/org.javassist:javassist:jar:3.15.0-GA</node>
             <node x="" y="">commons-dbcp:commons-dbcp:jar:1.4/commons-pool:commons-pool:jar:1.5.4</node>
+            <node x="" y="">commons-pool:commons-pool:jar:1.5.6</node>
           </nodes>
           <notes />
           <edges />
@@ -1246,9 +1279,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/converter/PersonConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="44" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234">
-          <folding />
-        </state>
+        <state line="0" column="44" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationContext.xml">
@@ -1292,6 +1323,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/todo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="65" selection-start="342" selection-end="342" vertical-scroll-proportion="0.3374578" vertical-offset="0" max-vertical-offset="889">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="41" selection-start="344" selection-end="446" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
@@ -1299,9 +1337,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/todo.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/database.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="56" selection-start="235" selection-end="235" vertical-scroll-proportion="0.30371204" vertical-offset="0" max-vertical-offset="889">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="889">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/util/LocaleBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="47" selection-start="443" selection-end="443" vertical-scroll-proportion="0.10123734" vertical-offset="0" max-vertical-offset="889">
           <folding />
         </state>
       </provider>

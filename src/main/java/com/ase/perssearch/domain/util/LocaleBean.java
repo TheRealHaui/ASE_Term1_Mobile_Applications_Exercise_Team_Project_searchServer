@@ -1,5 +1,6 @@
 package com.ase.perssearch.domain.util;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -13,7 +14,7 @@ import javax.faces.model.SelectItem;
 
 @ManagedBean
 @SessionScoped
-public class LocaleBean {
+public class LocaleBean implements Serializable {
     private Locale locale;
 
     @PostConstruct
