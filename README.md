@@ -10,6 +10,7 @@ Further full text search capabilities utilizing JSON webservices are offered.
 
 ![Startseite](/screenshots/entry.png)
 ![Startseite](/screenshots/create.png)
+![Startseite](/screenshots/edit.png)
 ![Startseite](/screenshots/listall.png)
 
 
