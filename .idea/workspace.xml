@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a70bf063-c83e-4995-a008-9f59ecb1c735" name="Default" comment="Necessary to run on glassfish beside JTA necessity&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_3_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/controller/StateController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ASE_Term1_Mobile_Applications_Exercise_Team_Project_searchServer.iml" afterPath="$PROJECT_DIR$/ASE_Term1_Mobile_Applications_Exercise_Team_Project_searchServer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/ASE_Term1_Mobile_Applications_Exercise_Team_Project_searchServer_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ASE_Term1_Mobile_Applications_Exercise_Team_Project_searchServer_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/perssearch.properties" afterPath="$PROJECT_DIR$/perssearch.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/perssearch.script" afterPath="$PROJECT_DIR$/perssearch.script" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+    <list default="true" id="a70bf063-c83e-4995-a008-9f59ecb1c735" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/controller/StateController.java" afterPath="$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/controller/StateController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="roo test.iws" />
@@ -80,7 +70,7 @@
       <file leaf-file-name="StateController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/controller/StateController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="89" selection-start="544" selection-end="544" vertical-scroll-proportion="0.20293123" vertical-offset="0" max-vertical-offset="887">
+            <state line="16" column="53" selection-start="654" selection-end="654" vertical-scroll-proportion="0.27057496" vertical-offset="0" max-vertical-offset="887">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -906,7 +896,7 @@
       <workItem from="1389223014928" duration="104000" />
       <workItem from="1389286871497" duration="1240000" />
       <workItem from="1389446070112" duration="451000" />
-      <workItem from="1389891476177" duration="5807000" />
+      <workItem from="1389891476177" duration="6037000" />
     </task>
     <task id="LOCAL-00001" summary="Initial import">
       <created>1388945586207</created>
@@ -944,11 +934,15 @@
       <created>1389044674947</created>
       <updated>1389044674947</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Spring Rest Webservice added in a basic manner.">
+      <created>1389899032859</created>
+      <updated>1389899032859</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26346000" />
+    <option name="totallyTimeSpent" value="26576000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1071" extended-state="6" />
@@ -1011,7 +1005,8 @@
     <MESSAGE value="Base JSON&#10;" />
     <MESSAGE value="Added telephonnumber to person domain" />
     <MESSAGE value="Necessary to run on glassfish beside JTA necessity" />
-    <option name="LAST_COMMIT_MESSAGE" value="Necessary to run on glassfish beside JTA necessity" />
+    <MESSAGE value="Spring Rest Webservice added in a basic manner." />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring Rest Webservice added in a basic manner." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1303,7 +1298,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/perssearch.script">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="311" max-vertical-offset="885" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="311" max-vertical-offset="885">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/perssearch.properties">
@@ -1422,7 +1419,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/controller/StateController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="89" selection-start="544" selection-end="544" vertical-scroll-proportion="0.20293123" vertical-offset="0" max-vertical-offset="887">
+        <state line="16" column="53" selection-start="654" selection-end="654" vertical-scroll-proportion="0.27057496" vertical-offset="0" max-vertical-offset="887">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

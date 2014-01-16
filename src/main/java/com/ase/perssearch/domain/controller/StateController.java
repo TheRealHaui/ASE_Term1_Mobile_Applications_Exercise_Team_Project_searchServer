@@ -13,6 +13,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 //http://www.pretechsol.com/2013/08/spring-restful-web-services-example.html#.UtgsApBDtkB
 
 
+//Call me locally with http://localhost:8080/state/KL
+//Call me locally with http://localhost:8080/state/KL
+
+
 @Controller
 @RequestMapping("/state")
 public class StateController {
