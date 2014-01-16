@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a70bf063-c83e-4995-a008-9f59ecb1c735" name="Default" comment="Added telephonnumber to person domain&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/util/LocaleBean.java" afterPath="$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/util/LocaleBean.java" />
+    <list default="true" id="a70bf063-c83e-4995-a008-9f59ecb1c735" name="Default" comment="Necessary to run on glassfish beside JTA necessity&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_3_2_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/controller/StateController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ASE_Term1_Mobile_Applications_Exercise_Team_Project_searchServer.iml" afterPath="$PROJECT_DIR$/ASE_Term1_Mobile_Applications_Exercise_Team_Project_searchServer.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/ASE_Term1_Mobile_Applications_Exercise_Team_Project_searchServer_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ASE_Term1_Mobile_Applications_Exercise_Team_Project_searchServer_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/perssearch.properties" afterPath="$PROJECT_DIR$/perssearch.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/perssearch.script" afterPath="$PROJECT_DIR$/perssearch.script" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="roo test.iws" />
@@ -67,28 +77,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="persistence.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <file leaf-file-name="StateController.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/controller/StateController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="41" selection-start="344" selection-end="446" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+            <state line="12" column="89" selection-start="544" selection-end="544" vertical-scroll-proportion="0.20293123" vertical-offset="0" max-vertical-offset="887">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="29" selection-start="3816" selection-end="3816" vertical-scroll-proportion="0.0" vertical-offset="251" max-vertical-offset="1125">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/database.properties">
+      <file leaf-file-name="dispatcher-servlet.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+            <state line="16" column="8" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LocaleBean.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/util/LocaleBean.java">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="47" selection-start="443" selection-end="443" vertical-scroll-proportion="0.10123734" vertical-offset="0" max-vertical-offset="889">
+            <state line="248" column="15" selection-start="9246" selection-end="9246" vertical-scroll-proportion="0.0" vertical-offset="3033" max-vertical-offset="6990">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="60" column="22" selection-start="2617" selection-end="2617" vertical-scroll-proportion="0.0" vertical-offset="296" max-vertical-offset="1170">
               <folding />
             </state>
           </provider>
@@ -107,13 +137,20 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/templates/footer.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/todo.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/util/LocaleBean.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/controller/HelloWorldController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/controller/MovieController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/controller/StateController.java" />
       </list>
     </option>
   </component>
@@ -229,8 +266,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -433,6 +470,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="i18n" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="perssearch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ASE_Term1_Mobile_Applications_Exercise_Team_Project_searchServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -467,7 +530,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -489,7 +552,7 @@
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="options.lastSelected" value="appearance" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -509,10 +572,14 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1043" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp/resources/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.All in perssearch">
@@ -831,7 +898,15 @@
       <workItem from="1388953317144" duration="722000" />
       <workItem from="1389031353842" duration="1132000" />
       <workItem from="1389040079176" duration="565000" />
-      <workItem from="1389044517114" duration="113000" />
+      <workItem from="1389044517114" duration="1103000" />
+      <workItem from="1389219316821" duration="276000" />
+      <workItem from="1389219607226" duration="554000" />
+      <workItem from="1389220177258" duration="594000" />
+      <workItem from="1389222776085" duration="203000" />
+      <workItem from="1389223014928" duration="104000" />
+      <workItem from="1389286871497" duration="1240000" />
+      <workItem from="1389446070112" duration="451000" />
+      <workItem from="1389891476177" duration="5807000" />
     </task>
     <task id="LOCAL-00001" summary="Initial import">
       <created>1388945586207</created>
@@ -865,23 +940,27 @@
       <created>1389031874883</created>
       <updated>1389031874883</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Necessary to run on glassfish beside JTA necessity">
+      <created>1389044674947</created>
+      <updated>1389044674947</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16127000" />
+    <option name="totallyTimeSpent" value="26346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1071" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32822758" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30240175" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22538178" sideWeight="0.2816594" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897604" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32822758" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897604" sideWeight="0.500346" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -889,25 +968,25 @@
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2257721" sideWeight="0.71834064" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22523962" sideWeight="0.6586433" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897604" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33041576" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30087528" sideWeight="0.49965397" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2257721" sideWeight="0.2816594" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2257721" sideWeight="0.2816594" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22523962" sideWeight="0.3402626" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2971246" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="82" y="92" width="1736" height="871" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="77" y="92" width="1736" height="871" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33006537" sideWeight="0.49965397" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30087528" sideWeight="0.49965397" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -931,7 +1010,8 @@
     <MESSAGE value="Base JSON" />
     <MESSAGE value="Base JSON&#10;" />
     <MESSAGE value="Added telephonnumber to person domain" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added telephonnumber to person domain" />
+    <MESSAGE value="Necessary to run on glassfish beside JTA necessity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Necessary to run on glassfish beside JTA necessity" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -941,31 +1021,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/main.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="63" selection-start="814" selection-end="814" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="405" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/templates/content.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/templates/footer.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1140" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/templates/layout.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="41" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
-          <folding />
-        </state>
+        <state line="31" column="41" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/main.xhtml">
@@ -990,9 +1048,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="41" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
-          <folding />
-        </state>
+        <state line="31" column="41" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/main.xhtml">
@@ -1013,11 +1069,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/templates/layout.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/Person_Roo_Configurable.aj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="329" selection-end="329" vertical-scroll-proportion="0.1010101" vertical-offset="0" max-vertical-offset="891" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ase/perssearch/domain/PersonIntegrationTest_Roo_IntegrationTest.aj">
@@ -1051,9 +1102,9 @@
             <node x="" y="">org.springframework.roo:org.springframework.roo.annotations:jar:1.2.4.RELEASE/commons-io:commons-io:jar:2.1</node>
             <node x="" y="">org.springframework:spring-test:jar:3.2.3.RELEASE</node>
             <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.7.5</node>
-            <node x="" y="">org.springframework:spring-web:jar:3.2.3.RELEASE/org.springframework:spring-beans:jar:3.2.3.RELEASE</node>
             <node x="" y="">org.springframework:spring-aspects:jar:3.2.3.RELEASE</node>
             <node x="" y="">org.springframework:spring-aop:jar:3.2.3.RELEASE/org.springframework:spring-core:jar:3.2.3.RELEASE</node>
+            <node x="" y="">org.springframework:spring-web:jar:3.2.3.RELEASE/org.springframework:spring-beans:jar:3.2.3.RELEASE</node>
             <node x="" y="">com.sun.faces:jsf-api:jar:2.1.2</node>
             <node x="" y="">org.hibernate:hibernate-core:jar:4.2.2.Final/antlr:antlr:jar:2.7.7</node>
             <node x="" y="">org.hibernate:hibernate-core:jar:4.2.2.Final</node>
@@ -1145,11 +1196,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/perssearch.script">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/images/csv.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1165,25 +1211,9 @@
         <state line="29" column="123" selection-start="1480" selection-end="1480" vertical-scroll-proportion="0.69787985" vertical-offset="40" max-vertical-offset="630" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/Person_Roo_Jpa_Entity.aj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="203" selection-end="203" vertical-scroll-proportion="0.10204082" vertical-offset="0" max-vertical-offset="600">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/images/springsource-logo.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="190" column="33" selection-start="7358" selection-end="7367" vertical-scroll-proportion="0.31934306" vertical-offset="2675" max-vertical-offset="6630">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/templates/layout.xhtml">
@@ -1194,27 +1224,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/templates/content.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/PersonBean_Roo_ManagedBean.aj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="19" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.29100528" vertical-offset="0" max-vertical-offset="5550">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/PersonBean_Roo_Configurable.aj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="333" selection-end="333" vertical-scroll-proportion="0.18518518" vertical-offset="0" max-vertical-offset="567">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/PersonBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="272" selection-end="272" vertical-scroll-proportion="0.13227513" vertical-offset="0" max-vertical-offset="567" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/ApplicationBean.java">
@@ -1232,15 +1241,6 @@
         <state line="21" column="63" selection-start="814" selection-end="814" vertical-scroll-proportion="0.5575221" vertical-offset="0" max-vertical-offset="565" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/Person_Roo_Json.aj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="18" selection-start="409" selection-end="409" vertical-scroll-proportion="0.27674022" vertical-offset="2" max-vertical-offset="660">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/PersonBean_Roo_Serializable.aj">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="18" selection-start="296" selection-end="296" vertical-scroll-proportion="0.15280136" vertical-offset="0" max-vertical-offset="589">
@@ -1248,33 +1248,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/Person_Roo_Jpa_ActiveRecord.aj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="38" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.3327674" vertical-offset="119" max-vertical-offset="1170">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/perssearch.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="592" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="868" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="23325" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="21" selection-start="248" selection-end="248" vertical-scroll-proportion="0.06749156" vertical-offset="0" max-vertical-offset="889">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/converter/PersonConverter.java">
@@ -1282,72 +1258,174 @@
         <state line="0" column="44" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="4" selection-start="4845" selection-end="4845" vertical-scroll-proportion="0.79452056" vertical-offset="264" max-vertical-offset="1140">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml">
       <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="100" selection-start="999" selection-end="999" vertical-scroll-proportion="0.3650058" vertical-offset="0" max-vertical-offset="863">
-          <folding />
-        </state>
+        <state line="21" column="100" selection-start="999" selection-end="999" vertical-scroll-proportion="0.3650058" vertical-offset="0" max-vertical-offset="863" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/templates/footer.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="31" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1170">
-          <folding />
-        </state>
+        <state line="20" column="31" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1170" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/ase/perssearch/domain/i18n/messages_de.properties">
       <provider editor-type-id="text-editor">
-        <state line="13" column="40" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <folding />
-        </state>
+        <state line="13" column="40" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480" />
       </provider>
       <provider selected="true" editor-type-id="ResourceBundle">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/todo.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
+        <state line="20" column="65" selection-start="342" selection-end="342" vertical-scroll-proportion="0.3374578" vertical-offset="0" max-vertical-offset="889" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/util/LocaleBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="47" selection-start="443" selection-end="443" vertical-scroll-proportion="0.10146561" vertical-offset="0" max-vertical-offset="887" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/database.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="889" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="21570">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/todo.txt">
+    <entry file="file://$PROJECT_DIR$/perssearch.script">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="65" selection-start="342" selection-end="342" vertical-scroll-proportion="0.3374578" vertical-offset="0" max-vertical-offset="889">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="311" max-vertical-offset="885" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/perssearch.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="41" selection-start="344" selection-end="446" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+        <state line="2" column="73" selection-start="362" selection-end="376" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/database.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="889">
+        <state line="14" column="12" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/Person_Roo_Configurable.aj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="18" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/util/LocaleBean.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/Person_Roo_JavaBean.aj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="47" selection-start="443" selection-end="443" vertical-scroll-proportion="0.10123734" vertical-offset="0" max-vertical-offset="889">
+        <state line="7" column="18" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/Person_Roo_Jpa_ActiveRecord.aj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="38" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/Person_Roo_Jpa_Entity.aj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="18" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/PersonBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="1" selection-start="286" selection-end="286" vertical-scroll-proportion="0.1598579" vertical-offset="0" max-vertical-offset="563">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/Person_Roo_ToString.aj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="18" selection-start="385" selection-end="385" vertical-scroll-proportion="0.1598579" vertical-offset="0" max-vertical-offset="563">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/Person_Roo_Json.aj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="18" selection-start="409" selection-end="409" vertical-scroll-proportion="0.15384616" vertical-offset="0" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/PersonBean_Roo_Configurable.aj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="18" selection-start="333" selection-end="333" vertical-scroll-proportion="0.15384616" vertical-offset="0" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/PersonBean_Roo_ManagedBean.aj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="4" selection-start="1176" selection-end="1176" vertical-scroll-proportion="-0.25641027" vertical-offset="315" max-vertical-offset="6255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="248" column="15" selection-start="9246" selection-end="9246" vertical-scroll-proportion="0.0" vertical-offset="3033" max-vertical-offset="6990">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="8" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="29" selection-start="3816" selection-end="3816" vertical-scroll-proportion="0.0" vertical-offset="251" max-vertical-offset="1125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="22" selection-start="2617" selection-end="2617" vertical-scroll-proportion="0.0" vertical-offset="296" max-vertical-offset="1170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/perssearch/domain/controller/StateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="89" selection-start="544" selection-end="544" vertical-scroll-proportion="0.20293123" vertical-offset="0" max-vertical-offset="887">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
