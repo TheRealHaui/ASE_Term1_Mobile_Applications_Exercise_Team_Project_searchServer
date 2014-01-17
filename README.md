@@ -9,24 +9,25 @@ This application can be accessed through this Url: **http://199.231.93.151:8080/
 
 Further full text search capabilities regarding the name, first and last, utilizing a JSON webservice are offered.
 
-It can be accessed through **http://199.231.93.151:8080/perssearch/searchPerson/\[Suchbegriff+hier\]**
+It can be accessed through **http://199.231.93.151:8080/perssearch/searchPerson/[Suchbegriff+hier]**
 
 
 
 The entry site of the HTML website.  
 ![Startseite](/screenshots/entry.png)
+List all existing persons with detailed information.
+The view has automatic paging support in case of higer amount of data.  
+![Startseite](/screenshots/listall.png)
+
 The view to create a new person.  
 ![Startseite](/screenshots/create.png)
 
 Person data can be edited this way.  
 ![Startseite](/screenshots/edit.png)
 
-List all existing persons with detailed information.
-The view has automatic paging support in case of higer amount of data.  
-![Startseite](/screenshots/listall.png)
 
 
-  
+    
 Infofor localegarding development:
 
 Url html interface on local host http://localhost:8080/perssearch
