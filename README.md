@@ -16,7 +16,7 @@ Further full text search capabilities utilizing JSON webservices are offered.
 
 Url html interface http://localhost:8080/perssearch
 
-Url Rest webservice http://localhost:8080/searchPerson/hans
+Url Rest webservice http://localhost:8080/perssearch/searchPerson/hans
 
 
 

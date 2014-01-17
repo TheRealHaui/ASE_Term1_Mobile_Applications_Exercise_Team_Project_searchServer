@@ -18,7 +18,7 @@ import java.util.List;
 //http://www.pretechsol.com/2013/08/spring-restful-web-services-example.html#.UtgsApBDtkB
 
 
-//Call me locally with http://localhost:8080/searchPerson/Hans
+//Call me locally with http://localhost:8080/perssearch/searchPerson/hans
 
 
 @Controller
