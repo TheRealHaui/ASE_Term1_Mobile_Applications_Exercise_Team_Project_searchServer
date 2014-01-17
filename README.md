@@ -1,4 +1,4 @@
-#ASE_Term1_Mobile_Applications_Exercise_Team_Project_searchServer
+ASE_Term1_Mobile_Applications_Exercise_Team_Project_searchServer
 ================================================================
 
 Java Spring and Enterprise Edition server application that holds person data.
@@ -26,8 +26,8 @@ The view has automatic paging support in case of higer amount of data.
 
 
 
+Information regarding development:
 
 Url html interface on local host http://localhost:8080/perssearch
-
 Url Rest webservice http://localhost:8080/perssearch/searchPerson/hans
 
