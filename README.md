@@ -5,11 +5,11 @@ Java Spring and Enterprise Edition server application that holds person data.
 Person data can be created, modified, updated and deleted through a HTML webinterface.
 The application supports internationalization with currently 4 provided languages.
 
-This application can be accessed through this Url: http://199.231.93.151:8080/perssearch/pages/person.jsf
+This application can be accessed through this Url: **http://199.231.93.151:8080/perssearch/pages/person.jsf**
 
 Further full text search capabilities regarding the name, first and last, utilizing a JSON webservice are offered.
 
-It can be accessed through http://199.231.93.151:8080/perssearch/searchPerson/[Suchbegriff hier]
+It can be accessed through **http://199.231.93.151:8080/perssearch/searchPerson/[[Suchbegriff hier]]**
 
 The entry site of the HTML website.
 ![Startseite](/screenshots/entry.png)
@@ -26,7 +26,7 @@ The view has automatic paging support in case of higer amount of data.
 
 
 
-Information for local development:
+Infofor localegarding development:
 
 Url html interface on local host http://localhost:8080/perssearch
 Url Rest webservice http://localhost:8080/perssearch/searchPerson/hans
