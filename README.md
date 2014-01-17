@@ -23,7 +23,7 @@ The view to create a new person.
 ![Startseite](/screenshots/create.png)
 
 Person data can be edited this way.  
-![Startseite](/screenshots/edit.png)   
+![Startseite](/screenshots/edit.png)     
 
 
 
