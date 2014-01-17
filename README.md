@@ -9,7 +9,8 @@ This application can be accessed through this Url: **http://199.231.93.151:8080/
 
 Further full text search capabilities regarding the name, first and last, utilizing a JSON webservice are offered.
 
-It can be accessed through **http://199.231.93.151:8080/perssearch/searchPerson/\[Suchbegriff hier\]**
+It can be accessed through **http://199.231.93.151:8080/perssearch/searchPerson/\[Suchbegriff+hier\]**
+
 
 
 The entry site of the HTML website.  
