@@ -11,17 +11,17 @@ Further full text search capabilities regarding the name, first and last, utiliz
 
 It can be accessed through http://199.231.93.151:8080/perssearch/searchPerson/[Suchbegriff hier]
 
-The entry site of the HTML website.
+The entry site of the HTML website.  
 ![Startseite](/screenshots/entry.png)
 
-The view to create a new person.
+The view to create a new person.  
 ![Startseite](/screenshots/create.png)
 
-Person data can be edited this way.
+Person data can be edited this way.  
 ![Startseite](/screenshots/edit.png)
 
 List all existing persons with detailed information.
-The view has automatic paging support in case of higer amount of data.
+The view has automatic paging support in case of higer amount of data.  
 ![Startseite](/screenshots/listall.png)
 
 
