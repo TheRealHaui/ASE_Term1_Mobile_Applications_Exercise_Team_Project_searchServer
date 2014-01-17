@@ -23,12 +23,13 @@ The view to create a new person.
 ![Startseite](/screenshots/create.png)
 
 Person data can be edited this way.  
-![Startseite](/screenshots/edit.png)
+![Startseite](/screenshots/edit.png)   
 
 
 
-    
-Infofor localegarding development:
+      
+      
+Information for local development:
 
 Url html interface on local host http://localhost:8080/perssearch
 Url Rest webservice http://localhost:8080/perssearch/searchPerson/hans
