@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="ASE_Term1_Mobile_Applications_Exercise_Team_Project_searchServer:war exploded">
-    <output-path>$PROJECT_DIR$/target/perssearch-0.1.0.BUILD-SNAPSHOT</output-path>
+    <output-path>$PROJECT_DIR$/target/perssearch</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="ASE_Term1_Mobile_Applications_Exercise_Team_Project_searchServer/web/Web" />
       <element id="directory" name="WEB-INF">
