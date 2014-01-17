@@ -26,7 +26,7 @@ The view has automatic paging support in case of higer amount of data.
 
 
 
-Information regarding development:
+Information for local development:
 
 Url html interface on local host http://localhost:8080/perssearch
 Url Rest webservice http://localhost:8080/perssearch/searchPerson/hans
