@@ -15,7 +15,6 @@ It can be accessed through **http://199.231.93.151:8080/perssearch/searchPerson/
 
 The entry site of the HTML website.  
 ![Startseite](/screenshots/entry.png)
-
 The view to create a new person.  
 ![Startseite](/screenshots/create.png)
 
@@ -27,7 +26,7 @@ The view has automatic paging support in case of higer amount of data.
 ![Startseite](/screenshots/listall.png)
 
 
-
+  
 Infofor localegarding development:
 
 Url html interface on local host http://localhost:8080/perssearch
