@@ -18,5 +18,10 @@
     </application>
     <factory>
         <exception-handler-factory>com.ase.perssearch.domain.util.ViewExpiredExceptionExceptionHandlerFactory</exception-handler-factory>
-    </factory>
+    </factory><!--
+    <managed-bean>
+        <managed-bean-name>localeBean</managed-bean-name>
+        <managed-bean-class>com.ase.perssearch.domain.util.LocaleBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>-->
 </faces-config>
